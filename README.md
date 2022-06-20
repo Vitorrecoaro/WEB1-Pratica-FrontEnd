@@ -1,6 +1,6 @@
 # WEB1 - Prática Front End
 
-Tarefa prática de HTML da disciplina de **desenvolvimento de software para web 1** que consiste em:
+Tarefa prática de front end da disciplina de **desenvolvimento de software para web 1** que consiste em:
 
 ## Prática HTML:
 
