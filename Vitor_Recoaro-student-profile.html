@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="student-profile.css">
+    <link rel="stylesheet" href="Vitor_Recoaro-student-profile.css">
     <title>
         Perfil de Vitor Recoaro
     </title>
+    <script src="Vitor_Recoaro-student-profile.js" defer></script>
 </head>
 
 <body>
@@ -75,13 +76,14 @@
 
     <div class="centeredContainer" id="footer">
         <h3>Contato:</h3>
-        <form>
-            <input type="text" name="nome" placeholder="Nome">
+        <form onsubmit="openAlert()">
+            <input type="text" name="nome" placeholder="Nome" id="name">
             <pre></pre>
             <textarea name="mensagem" id="formMsg" cols="50" rows="10" placeholder="Sua mensagem"></textarea>
             <pre></pre>
             <button type="submit">Enviar mensagem</button>
         </form>
+        <button onclick="changeFooterColor()">Trocar a cor do rodapé</button>
     </div>
 </body>
 
